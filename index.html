@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style type="text/css">
+body {
+  margin: 40px;
+}
+
+.wrapper {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: [col] 350px [col] 350px [col] 350px [col] 350px [col] 350px ;
+        grid-template-rows: [row] 230px [row] 215px auto [row] 215px [row] 215px;
+        background-color: #fff;
+        color: #444;
+    }
+
+    .box {
+        background-color: #4b3f42;
+        color: #fff;
+        border-radius: 20px;
+        padding: 20px;
+        font-size: 110%;
+       -webkit-box-shadow: 7px 7px 7px 0px rgba(0,0,0,0.75);
+       -moz-box-shadow: 7px 7px 7px 0px rgba(0,0,0,0.75);
+       box-shadow: 7px 7px 7px 0px rgba(0,0,0,0.75);
+      }
+
+    .a {
+        grid-column: col / span 2;
+        grid-row: row ;
+    }
+    .b {
+        grid-column: col 3 / span 2 ;
+        grid-row: row ;
+    }
+    .c {
+        grid-column: col / span 2;
+        grid-row: row 2 ;
+    }
+    .d {
+        grid-column: col 3 / span 2 ;
+        grid-row: row 2 ;
+    }
+
+    .e {
+        grid-column: col / span 3;
+        grid-row: row 3;
+    }
+    .f {
+        grid-column: col / span ;
+        grid-row: row 3;
+    }
+
+    }
+    </style>
+</head>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<t class="txc">ALL IMPORTANT LINKS</t>
+<style>
+a:link {
+    color: yellow;
+}
+a:visited {
+    color: yellow;
+}
+a:hover {
+    color: yellow;
+}
+a:active {
+    color: yellow;
+}
+</style>
+<style>
+.tab {
+position: absolute;
+color:#2cb0d0;
+font-size:25px;
+font-style:oblique;
+}
+</style>
+</style>
+<style>
+.txcl {
+color:yellow;
+}
+</style>
+<style>
+.txc {
+font-style:oblique;
+color:#000;
+font-size:25px;
+}
+</style>
+<body>
+<div class="wrapper">
+<div class="box a">
+<t <span class="tab">Quick Search</span></t><br>
+<br><t>Enter </t><t class="txcl">TAC SR Number</t><t> only</t>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" placeholder="Enter TAC SR Number..." id="TAC"><button onclick="window.open('https://mycase.cloudapps.cisco.com/' + document.getElementById('TAC').value);">GO</button><t>&nbsp;&nbsp;&nbsp;----------- CEC Credentials</t>
+<br><t>Enter </t><t class="txcl">RMA Number</t><t> only</t>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" placeholder="Enter RMA Number..." id="RMA"><button onclick="window.open('http://msvodb.cloudapps.cisco.com/support/serviceordertool/orderDetails.svo?orderNumber=' + document.getElementById('RMA').value);">GO</button><t>&nbsp;&nbsp;&nbsp;----------- CEC Credentials</t>
+<br><t>Enter </t><t class="txcl">Rack Server</t><t> name with '-r' </t>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" placeholder="Enter RACK Server Name..." id="RACK"><button onclick="window.open('https://' + document.getElementById('RACK').value);">GO</button><t>&nbsp;&nbsp;&nbsp;----------- Admin Credentials</t>
+<br><t>Enter </t><t class="txcl">Host Name</t><t> only</t>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" placeholder="Enter Host Name..." id="Owner"><button onclick="window.open('https://it.cisco.com/search/hosts/name/' + document.getElementById('Owner').value);">GO</button><t>&nbsp;&nbsp;&nbsp;----------- CEC Credentials</t>
+<br><t>Enter </t><t class="txcl">Remedy case Number</t><t> only</t>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" placeholder="Enter Case No..." id="case"><button onclick="window.open('https://remedy-atlantic.cloudapps.cisco.com/incidents/' + document.getElementById('case').value);">GO</button><t>&nbsp;&nbsp;&nbsp;----------- CEC Credentials</t>
+<br><t>Enter </t><t class="txcl">CR Number</t><t> only</t>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" placeholder="Enter CR No..." id="cr"><button onclick="window.open('https://remedy-atlantic.cloudapps.cisco.com/change/' + document.getElementById('cr').value);">GO</button><t>&nbsp;&nbsp;&nbsp;----------- CEC Credentials</t>
+<br><t>Enter </t><t class="txcl">PBI Number</t><t> only</t>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" placeholder="Enter PBI No..." id="problem"><button onclick="window.open('https://remedy-atlantic.cloudapps.cisco.com/problems/' + document.getElementById('problem').value);">GO</button><t>&nbsp;&nbsp;&nbsp;----------- CEC Credentials</t>
+</t></div>
+<div class="box b">
+<body link="#f35b19">
+<t <span class="tab">Day to Day Work</span></t><br>
+<br><a href="http://eman.cisco.com/" target="_blank">EMAN</a> <t> -------------- CEC Credentials </t>
+<br><a href="https://infradash.cisco.com/welcome/index.php/" target="_blank">Unix Dashboard</a> <t> -------------- CEC Credentials </t>
+<br><a href="http://workflow/Decom" target="_blank">Decom Tool</a> <t> -------------- CEC Credentials </t>
+<br><a href="https://ews-aln-core.cisco.com/CLI/html/cligui.pcgi" target="_blank">Bulk VM EMAN details Audit</a> <t> -------------- CEC Credentials </t>
+<br><a href="http://dcss-tools/cgi-bin/config_history.pl/" target="_blank">VM History Tool</a> <t> -------------- CEC Credentials </t>
+<br><a href="http://remedy.cisco.com" target="_blank">Remedy</a> <t> -------------- CEC Credentials </t>
+<br><a href="https://ews-aln-core.cisco.com/OPDATA/EnterpriseMonitor" target="_blank">Enterprise Monitor</a> <t> -------------- CEC Credentials </t>
+</body>
+</div>
+<div class="box c">
+<body link="#f35b19">
+<t <span class="tab">UCSVIF Work Links</span></t><br>
+<br><a href="https://mycase.cloudapps.cisco.com/case/" target="_blank">TAC Support Tool - Home Page</a> <t> -------------- CEC Credentials </t>
+<br><a href="https://cway.cisco.com/csc/" target="_blank">TAC Logs Upload Tool</a> <t> -------------- CEC Credentials </t>
+<br><a href="https://my.vmware.com/web/vmware/" target="_blank">VMWare Support Tool</a> <t> -------------- VMware Credentials </t>
+<br><a href="https://vmwaresupport.webex.com/" target="_blank">Vmware Troubleshooting WebEx Home Page</a> <t> -------------- CEC Credentials </t>
+<br><a href="https://wiki.cisco.com/display/socucsvif/" target="_blank">WikiTracker_SOC-UCSVIF</a> <t> -------------- CEC Credentials </t>
+<br><a href="https://ucscentral/ui/faces/Login.xhtml" target="_blank">UCS Central-New</a> <t> -------------- WEB Credentials </t>
+<br><a href="https://ucscentral/flex.html" target="_blank">UCS Central-old</a> <t> -------------- WEB Credentials </t>
+</body>
+</div>
+<div class="box d">
+<body link="#f35b19">
+<t <span class="tab">Cisco Reference Links</span></t><br>
+<br><a href="https://cisco.jiveon.com/" target="_blank">Cisco Jive</a> <t> -------------- CEC Credentials </t>
+<br><a href="http://ciscodocs.cisco.com/ciscodocs" target="_blank">Cisco Docs</a> <t> -------------- CEC Credentials </t>
+<br><a href="http://onramp.cisco.com" target="_blank">Onramp</a> <t> -------------- CEC Credentials </t>
+<br><a href="https://wwwin-sfo.cisco.com" target="_blank">SFO</a> <t> -------------- CEC Credentials </t>
+<br><a href="https://clicktochat.cloudapps.cisco.com" target="_blank">C2C</a> <t> -------------- CEC Credentials </t>
+<br><a href="https://pwreset.cisco.com/CISCO" target="_blank">Password Reset</a> <t> -------------- CEC Credentials </t>
+<br><a href="https://ds-web.cisco.com/OPDATA/ActiveDirectory/adam/index.pmcgi" target="_blank">Adam Web</a> <t> -------------- CEC Credentials </t>
+</body>
+</div>
+<div class="box e">
+<t <span class="tab">Other Essential Info</span></t><br>
+<br><t class="txcl">ESXi Credntials :</t> <t>&nbsp;root / Y!u$uD0! / !d0om$d@y / E$s1x9i! </t>
+<br><t class="txcl">Rack Server Credentials :</t> <t>&nbsp;admin/ Vkj8cnGf / IRCUSER / IRCUSER1 / password / ICUSER1 / Cisco123 / CEC Credentials </t>
+<br><t class="txcl">VMware Support Tool Credentials :</t> <t>&nbsp;vmsupport@external.cisco.com / vmware-ist@external.cisco.com / f13XwnEG  </t>
+<br><t class="txcl">VMware Contact :</t> <t>&nbsp;(OLD) 9000800 100 5869 / (NEW) 9001877 486 9273 [No need to add 900 again) | </t><t class="txcl">VMware Account :</t> <t>&nbsp;113665644 </t>
+<br><t class="txcl">TAC:</t> <t>&nbsp;18005532447 | </t><t class="txcl">HTTS:</t> <t>&nbsp;18004959121 / 14085267209 | </t><t class="txcl">Logistic:</t> <t>&nbsp;18005532447 | </t><t class="txcl">Cisco Logistics :</t> <t>&nbsp; +1 408 526 5744 </t>
+<br><t class="txcl">TAC Contracts :</t> <t>&nbsp;90879497, 90956658, 91125270[rack only], 93797994 </t>
+</div>
+<div class="box f">
+<body><img src="http://www.qosnetworking.com/wp-content/uploads/2015/09/cisco-logo.png.pagespeed.ce.hjIVV_Qu5Y.png" height="180" width="300"></body>
+</div>
+</body>
+</html>
